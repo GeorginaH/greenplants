@@ -1,0 +1,10 @@
+uuid: 6e8996ba-c01c-4c10-a801-78c24639f4fe
+langcode: en
+status: true
+dependencies: {  }
+id: terrace_and_garden_flowers
+label: 'Terrace and garden flowers'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

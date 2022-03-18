@@ -1,0 +1,8 @@
+uuid: 2946d7c1-ea5b-4271-93ba-f6058f32275a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blooming season'
+vid: blooming_season
+description: ''
+weight: 0

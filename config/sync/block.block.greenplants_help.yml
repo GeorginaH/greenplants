@@ -1,0 +1,22 @@
+uuid: 2a5350cf-bc8d-4dd7-bc9f-c8a2c4e99552
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - greenplants
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: greenplants_help
+theme: greenplants
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
