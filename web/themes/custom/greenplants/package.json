@@ -1,0 +1,28 @@
+{
+  "name": "greenplants",
+  "version": "1.0.0",
+  "license": "Proprietary",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "laravel-mix": "^6.0.43",
+    "postcss": "^8.4.12",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "webpack": "^5.70.0"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "flow": "flow"
+  }
+}

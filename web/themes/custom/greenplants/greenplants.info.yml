@@ -1,5 +1,5 @@
 type: theme
-base theme: bootstrap
+base theme: false
 core: 8.x
 core_version_requirement: ^8 || ^9
 
@@ -8,18 +8,18 @@ description: 'A theme for our nursery garden.'
 package: 'Custom'
 
 regions:
-  navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  breadcrumb: 'Breadcrumb'
   highlighted: 'Highlighted'
   help: 'Help'
+  pre_content: 'Pre Content'
   content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
+  post_content: 'Post Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
   footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
 
-libraries-extend:
-  bootstrap/framework:
-    - greenplants/framework
+libraries:
+  - greenplants/global_styles

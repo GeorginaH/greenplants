@@ -17,7 +17,6 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
-        "drupal/bootstrap": "3.x-dev@dev",
         "drupal/commerce": "^2.29",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
@@ -90,6 +89,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        }
+    },
+    "patches": {
+        "drupal/core": {
+            "2904908: Fetch User ID from route context views' contextual filter for any entity": "https://www.drupal.org/files/issues/fetch_user_id_from_route_for_all-2904908-13.patch"
         }
     },
     "require-dev": {

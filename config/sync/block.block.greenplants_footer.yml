@@ -1,6 +1,6 @@
 uuid: b59160ae-8448-479f-bccc-fdacea168e29
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -12,7 +12,7 @@ _core:
   default_config_hash: pnCK21YFjH7iB4XDeokSq3N3XSr6qX8BsqMs9nmip6E
 id: greenplants_footer
 theme: greenplants
-region: navigation
+region: header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
