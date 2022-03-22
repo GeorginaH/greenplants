@@ -1,0 +1,12 @@
+uuid: 72ed483a-1fc6-483a-80cb-d5ba01ca7518
+langcode: en
+status: true
+dependencies: {  }
+id: bulbs
+label: Bulbs
+traits: {  }
+locked: false
+description: ''
+variationType: bulbs
+multipleVariations: true
+injectVariationFields: true

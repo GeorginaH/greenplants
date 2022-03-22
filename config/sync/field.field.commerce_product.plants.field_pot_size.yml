@@ -1,0 +1,35 @@
+uuid: f9e65d56-6bef-4dd6-b33e-5aa7a6df89e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.plants
+    - field.storage.commerce_product.field_pot_size
+  module:
+    - range
+id: commerce_product.plants.field_pot_size
+field_name: field_pot_size
+entity_type: commerce_product
+bundle: plants
+label: 'Pot size'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  field:
+    prefix: ''
+    suffix: /
+  from:
+    prefix: ''
+    suffix: 'cm height'
+  to:
+    prefix: ''
+    suffix: 'cm diameter'
+  combined:
+    prefix: ''
+    suffix: ''
+field_type: range_decimal

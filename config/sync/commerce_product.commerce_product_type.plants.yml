@@ -1,0 +1,12 @@
+uuid: 8f5728cb-ce26-4796-9bf3-c67fb5c44ade
+langcode: en
+status: true
+dependencies: {  }
+id: plants
+label: Plants
+traits: {  }
+locked: false
+description: ''
+variationType: plants
+multipleVariations: true
+injectVariationFields: true

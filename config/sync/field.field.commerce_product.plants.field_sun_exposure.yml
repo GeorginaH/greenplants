@@ -1,0 +1,29 @@
+uuid: 1cfc9499-e538-43df-8d39-42489bd403bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.plants
+    - field.storage.commerce_product.field_sun_exposure
+    - taxonomy.vocabulary.sun_exposure
+id: commerce_product.plants.field_sun_exposure
+field_name: field_sun_exposure
+entity_type: commerce_product
+bundle: plants
+label: 'Sun exposure'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sun_exposure: sun_exposure
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

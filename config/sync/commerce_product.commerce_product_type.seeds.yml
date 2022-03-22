@@ -1,0 +1,12 @@
+uuid: 29b7d4b3-a451-4dd9-b842-4b96a45993fb
+langcode: en
+status: true
+dependencies: {  }
+id: seeds
+label: Seeds
+traits: {  }
+locked: false
+description: ''
+variationType: seeds
+multipleVariations: true
+injectVariationFields: true

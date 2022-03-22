@@ -1,0 +1,8 @@
+uuid: 90d04f99-906c-4c94-88da-7c52d8265f22
+langcode: en
+status: true
+dependencies: {  }
+name: 'Plant variety'
+vid: plant_variety
+description: 'The variety of a plant.'
+weight: 0

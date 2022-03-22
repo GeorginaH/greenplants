@@ -1,0 +1,20 @@
+uuid: 08e4de43-0e9f-4b1e-9686-c28f6457ef10
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+id: commerce_product.field_sun_exposure
+field_name: field_sun_exposure
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

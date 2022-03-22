@@ -1,0 +1,153 @@
+uuid: 554b45c3-18d0-4975-83bf-4c2e6937b738
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.plants
+    - field.field.commerce_product.plants.body
+    - field.field.commerce_product.plants.field_advice
+    - field.field.commerce_product.plants.field_blooming
+    - field.field.commerce_product.plants.field_irrigation
+    - field.field.commerce_product.plants.field_media
+    - field.field.commerce_product.plants.field_pet_friendly
+    - field.field.commerce_product.plants.field_plant_height
+    - field.field.commerce_product.plants.field_plant_variety
+    - field.field.commerce_product.plants.field_pot_size
+    - field.field.commerce_product.plants.field_price
+    - field.field.commerce_product.plants.field_sun_exposure
+  module:
+    - commerce_price
+    - commerce_product
+    - range
+    - text
+id: commerce_product.plants.default
+targetEntityType: commerce_product
+bundle: plants
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_advice:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_blooming:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_irrigation:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 23
+    region: content
+  field_pet_friendly:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_plant_height:
+    type: range_decimal
+    label: above
+    settings:
+      range_separator: '-'
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      range_combine: true
+      field_prefix_suffix: false
+      from_prefix_suffix: false
+      to_prefix_suffix: false
+      combined_prefix_suffix: false
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_plant_variety:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_pot_size:
+    type: range_decimal
+    label: above
+    settings:
+      range_separator: '-'
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      range_combine: true
+      field_prefix_suffix: false
+      from_prefix_suffix: false
+      to_prefix_suffix: false
+      combined_prefix_suffix: false
+    third_party_settings: {  }
+    weight: 21
+    region: content
+  field_price:
+    type: commerce_price_default
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    weight: 22
+    region: content
+  field_sun_exposure:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true

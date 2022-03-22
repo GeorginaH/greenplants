@@ -1,0 +1,22 @@
+uuid: bad89c90-3ae4-4620-8d9e-38324acd1755
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - greenplants
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: greenplants_powered
+theme: greenplants
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

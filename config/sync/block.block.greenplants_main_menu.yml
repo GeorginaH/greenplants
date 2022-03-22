@@ -1,0 +1,27 @@
+uuid: 78a9047d-2742-46d3-a849-89f40da7e6e5
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - greenplants
+_core:
+  default_config_hash: _G1IfGESk7WqvVCi7B3VJxhSY0YICgv1OmuVPJqO8bE
+id: greenplants_main_menu
+theme: greenplants
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }
