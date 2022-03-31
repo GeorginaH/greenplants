@@ -42,8 +42,11 @@ module:
   history: 0
   image: 0
   inline_entity_form: 0
+  language: 0
   link: 0
   media: 0
+  media_download_path: 0
+  media_entity_download: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0

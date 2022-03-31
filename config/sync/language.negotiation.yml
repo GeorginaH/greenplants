@@ -1,0 +1,13 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: domain
+  prefixes:
+    en: ''
+    es: es
+  domains:
+    en: greenplants.org
+    es: plantasgreen.org
+selected_langcode: site_default

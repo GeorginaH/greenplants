@@ -2,4 +2,4 @@ global_styles:
   version: VERSION
   css:
     theme:
-      css/style.css: {}
+      dist/css/style.css: {}

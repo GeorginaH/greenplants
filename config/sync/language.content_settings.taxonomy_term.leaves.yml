@@ -1,0 +1,11 @@
+uuid: b3b26c97-a8d8-4cf9-a10b-69521ff1f9d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.leaves
+id: taxonomy_term.leaves
+target_entity_type_id: taxonomy_term
+target_bundle: leaves
+default_langcode: site_default
+language_alterable: false
