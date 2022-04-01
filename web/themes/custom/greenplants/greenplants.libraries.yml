@@ -3,3 +3,4 @@ global_styles:
   css:
     theme:
       dist/css/style.css: {}
+      dist/fontawesome/css/fontawesome.css: {}

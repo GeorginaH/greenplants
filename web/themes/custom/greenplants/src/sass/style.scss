@@ -1,6 +1,11 @@
 /* ./src/sass/app.scss */
-@import "custom";
-@import "fontawesome";
+@import "components/custom";
+
+/* base */
 @tailwind base;
+
+/* components */
 @tailwind components;
+
+/* utilities */
 @tailwind utilities;
