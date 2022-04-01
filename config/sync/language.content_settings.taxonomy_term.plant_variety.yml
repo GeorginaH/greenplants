@@ -1,0 +1,11 @@
+uuid: 695cbf15-3c5e-470b-ba7c-72885f94e62a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_variety
+id: taxonomy_term.plant_variety
+target_entity_type_id: taxonomy_term
+target_bundle: plant_variety
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,1 @@
+{"version":3,"file":"dist/css/style.css","mappings":"AAAA;ACGA;EACE,gBAHQ;ADEV,C","sources":["webpack://greenplants/./src/sass/style.scss","webpack://greenplants/./src/sass/components/custom.scss"],"sourcesContent":["/* ./src/sass/app.scss */\n@import \"components/custom\";\n","// src/app.scss\n$primary: grey;\n\n.app {\n  background: $primary;\n}\n"],"names":[],"sourceRoot":""}

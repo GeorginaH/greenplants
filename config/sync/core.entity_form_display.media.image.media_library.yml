@@ -9,6 +9,7 @@ dependencies:
     - media.type.image
   module:
     - image
+    - media_download_path
 _core:
   default_config_hash: BMLrK4zKp8-FFnMseBdT_6h6YipUsKRfbDf_3WUB5HA
 id: media.image.media_library
@@ -23,6 +24,19 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  media_download_path:
+    type: media_download_path
+    weight: 29
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true

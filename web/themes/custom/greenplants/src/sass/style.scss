@@ -1,5 +1,11 @@
-/* ./resources/sass/app.scss */
+/* ./src/sass/app.scss */
+@import "components/custom";
 
+/* base */
 @tailwind base;
+
+/* components */
 @tailwind components;
+
+/* utilities */
 @tailwind utilities;

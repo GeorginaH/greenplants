@@ -7,6 +7,7 @@ dependencies:
     - media.type.audio
   module:
     - file
+    - media_download_path
     - path
 _core:
   default_config_hash: G2_SKH3jmI9FQeXSUxo3KgQqiyF1hPDEkc7-3-rCSbc
@@ -27,6 +28,19 @@ content:
     region: content
     settings:
       progress_indicator: throbber
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  media_download_path:
+    type: media_download_path
+    weight: 29
+    region: content
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path

@@ -6,13 +6,28 @@ dependencies:
     - core.entity_form_mode.media.media_library
     - field.field.media.video.field_media_video_file
     - media.type.video
+  module:
+    - media_download_path
 _core:
   default_config_hash: kGv8YsopqHvzTzb7QTINWcv0fnNa5ZDQyZxpOQR2vro
 id: media.video.media_library
 targetEntityType: media
 bundle: video
 mode: media_library
-content: {  }
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  media_download_path:
+    type: media_download_path
+    weight: 29
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   field_media_video_file: true

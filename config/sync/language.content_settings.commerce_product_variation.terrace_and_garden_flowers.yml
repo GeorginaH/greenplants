@@ -1,0 +1,11 @@
+uuid: aa140202-a5a3-4c32-91a9-788533ae0d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.terrace_and_garden_flowers
+id: commerce_product_variation.terrace_and_garden_flowers
+target_entity_type_id: commerce_product_variation
+target_bundle: terrace_and_garden_flowers
+default_langcode: site_default
+language_alterable: true

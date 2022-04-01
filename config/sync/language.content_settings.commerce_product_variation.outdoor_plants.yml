@@ -1,0 +1,11 @@
+uuid: 83a2079a-5488-49d1-b259-35d0dc92aa95
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.outdoor_plants
+id: commerce_product_variation.outdoor_plants
+target_entity_type_id: commerce_product_variation
+target_bundle: outdoor_plants
+default_langcode: site_default
+language_alterable: true
