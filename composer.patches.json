@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/core": {
+      "Untranslated menu items are displayed in menus": "https://www.drupal.org/files/issues/2022-04-07/2466553-107.patch"
+    }
+  }
+}
