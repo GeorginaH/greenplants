@@ -1,0 +1,18 @@
+uuid: a39ddd77-6e2a-497e-8a53-494e64fd1a17
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.irrigation
+id: taxonomy_term.irrigation.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: irrigation
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

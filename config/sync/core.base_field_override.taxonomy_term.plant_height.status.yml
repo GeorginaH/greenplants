@@ -1,0 +1,22 @@
+uuid: 1a988501-83a0-41d4-9878-611552f85147
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_height
+id: taxonomy_term.plant_height.status
+field_name: status
+entity_type: taxonomy_term
+bundle: plant_height
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

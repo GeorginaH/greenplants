@@ -1,0 +1,20 @@
+uuid: 5af62490-d44b-49bb-b16c-3132524e4db3
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.document
+  module:
+    - media_download_path
+id: media.document.media_download_path
+field_name: media_download_path
+entity_type: media
+bundle: document
+label: 'Download URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: media_download_path

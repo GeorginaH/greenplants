@@ -1,0 +1,22 @@
+uuid: cb41d43c-1a9c-4e8e-8942-4de0647129f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blooming_season
+id: taxonomy_term.blooming_season.status
+field_name: status
+entity_type: taxonomy_term
+bundle: blooming_season
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

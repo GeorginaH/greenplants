@@ -1,0 +1,20 @@
+uuid: bf8c3dd6-c9ad-40a2-ba84-4627ee41378a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.seeds
+id: commerce_product.seeds.default_variation
+field_name: default_variation
+entity_type: commerce_product
+bundle: seeds
+label: 'Default variation'
+description: 'The default variation.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -9,5 +9,5 @@ url:
     es: es
   domains:
     en: greenplants.org
-    es: plantasgreen.org
+    es: ''
 selected_langcode: site_default

@@ -1,0 +1,18 @@
+uuid: 40db4ac6-0e57-4030-a588-a5086b10a7c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sun_exposure
+id: taxonomy_term.sun_exposure.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: sun_exposure
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: c3b5f2e5-44b0-40fa-bf6b-2d90014d52f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_variety
+id: taxonomy_term.plant_variety.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: plant_variety
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

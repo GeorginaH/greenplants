@@ -1,0 +1,20 @@
+uuid: b4c59233-416a-4dc0-8a80-08c2a63e58fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_variety
+  module:
+    - path
+id: taxonomy_term.plant_variety.path
+field_name: path
+entity_type: taxonomy_term
+bundle: plant_variety
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

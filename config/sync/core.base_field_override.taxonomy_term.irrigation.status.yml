@@ -1,0 +1,22 @@
+uuid: 715c5aae-1915-4622-9c89-cf188803a628
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.irrigation
+id: taxonomy_term.irrigation.status
+field_name: status
+entity_type: taxonomy_term
+bundle: irrigation
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

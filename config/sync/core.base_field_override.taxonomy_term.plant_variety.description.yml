@@ -1,0 +1,20 @@
+uuid: 8ac33dab-0988-4770-822c-65c96544e83c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_variety
+  module:
+    - text
+id: taxonomy_term.plant_variety.description
+field_name: description
+entity_type: taxonomy_term
+bundle: plant_variety
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

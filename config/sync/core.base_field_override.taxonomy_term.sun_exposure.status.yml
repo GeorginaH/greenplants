@@ -1,0 +1,22 @@
+uuid: 6ee47967-9feb-4d37-a071-8f32887ed2c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.sun_exposure
+id: taxonomy_term.sun_exposure.status
+field_name: status
+entity_type: taxonomy_term
+bundle: sun_exposure
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

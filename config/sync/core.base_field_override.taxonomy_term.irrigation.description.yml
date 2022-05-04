@@ -1,0 +1,20 @@
+uuid: 5cef9022-0579-45da-bb41-b372abb274db
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.irrigation
+  module:
+    - text
+id: taxonomy_term.irrigation.description
+field_name: description
+entity_type: taxonomy_term
+bundle: irrigation
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

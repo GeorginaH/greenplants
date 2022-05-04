@@ -1,0 +1,20 @@
+uuid: 687b7875-8728-41b4-a43a-4f507f41ab09
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blooming_season
+  module:
+    - path
+id: taxonomy_term.blooming_season.path
+field_name: path
+entity_type: taxonomy_term
+bundle: blooming_season
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

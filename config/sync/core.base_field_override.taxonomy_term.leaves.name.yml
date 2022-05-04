@@ -1,0 +1,18 @@
+uuid: 9a73c906-2975-430d-a87b-3ec65140f0d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.leaves
+id: taxonomy_term.leaves.name
+field_name: name
+entity_type: taxonomy_term
+bundle: leaves
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

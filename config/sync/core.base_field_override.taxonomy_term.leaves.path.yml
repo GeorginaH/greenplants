@@ -1,0 +1,20 @@
+uuid: 33834184-86df-4cc4-9eb8-e3031e8e359b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.leaves
+  module:
+    - path
+id: taxonomy_term.leaves.path
+field_name: path
+entity_type: taxonomy_term
+bundle: leaves
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

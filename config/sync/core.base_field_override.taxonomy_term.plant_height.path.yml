@@ -1,0 +1,20 @@
+uuid: b95b96fa-5954-4980-bbe8-ac4db7b2220c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_height
+  module:
+    - path
+id: taxonomy_term.plant_height.path
+field_name: path
+entity_type: taxonomy_term
+bundle: plant_height
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,18 @@
+uuid: 95febe0a-bd5c-4d92-a1f9-d77f87d65a22
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.blooming_season
+id: taxonomy_term.blooming_season.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: blooming_season
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -7,8 +7,62 @@ dependencies:
     - field.field.node.page.field_media
     - node.type.page
   module:
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          f12e2e74-c855-419c-a4ec-875454fc84a9:
+            uuid: f12e2e74-c855-419c-a4ec-875454fc84a9
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          d045e3cf-0f89-412e-bf4e-ed59f8691120:
+            uuid: d045e3cf-0f89-412e-bf4e-ed59f8691120
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          cd746c17-1472-4b73-b64c-43fae05af251:
+            uuid: cd746c17-1472-4b73-b64c-43fae05af251
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_media'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: full
+                  link: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default

@@ -1,0 +1,20 @@
+uuid: 76c2f6aa-1e5d-4ae0-95d9-51d7ec7e206a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plant_height
+  module:
+    - text
+id: taxonomy_term.plant_height.description
+field_name: description
+entity_type: taxonomy_term
+bundle: plant_height
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
