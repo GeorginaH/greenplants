@@ -1,0 +1,37 @@
+https://www.ftd.com/
+
+Es un vivero, clientes pueden ver el catalogo de las plantas, semillas y productos disponibles y precio.
+Se pueden hacer reservaciones de los productos.
+Habran algunos blog post sobre los productos o sobre abono o sobre como cuidar algunas plantas.
+No sera una tienda donde se pueden comprar los productos.
+
+Abra una seccion de inventario, la cual el duenio debera introducir el producto que se esta comprando en el momento,
+de esta forma podra ser vista la disponibilidad de un producto y el dinero que se esta recogiendo por producto al tener
+un precio estipulado.
+
+
+https://drupalize.me/tutorial/update-drupal-versions-prior-88x-using-composer?p=3233
+
+
+https://github.com/PacktPublishing/Drupal-9-Module-Development-Third-Edition
+
+
+https://stitcher.io/blog/constructor-promotion-in-php-8
+
+
+Indoor plants https://www.fronda.com/plantas-de-interior
+
+https://docs.drupalcommerce.org/commerce1/user-guide/products/setting-up-a-product-catalog
+https://www.drupal.org/node/2232015
+
+
+https://docs.drupalcommerce.org/commerce2/developer-guide/core/libraries-and-dependencies/state-machine/state-fields
+
+https://mglaman.dev/blog/migrating-tailwindcss-iteratively-your-drupal-theme
+https://www.hashbangcode.com/article/drupal-8-theming-tailwind-css
+
+
+Background theme
+https://express.adobe.com/sp/design/post/urn:aaid:sc:US:e5121b8f-5d6e-4e72-9726-2855daa5173f
+
+https://v2.tailwindcss.com/docs/plugins
