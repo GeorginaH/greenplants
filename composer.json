@@ -138,6 +138,12 @@
             ]
         }
     },
+    "scripts": {
+        "phpstan": "phpstan analyse --",
+        "si": "drush sql-drop -y && drush site:install -v install_profile --existing-config --yes --sites-subdir=default --account-name=admin-user-default",
+        "phpcs": "phpcs --",
+        "phpcbf": "phpcbf --"
+    },
     "patches": {
         "drupal/core": {
             "2904908: Fetch User ID from route context views' contextual filter for any entity": "https://www.drupal.org/files/issues/fetch_user_id_from_route_for_all-2904908-13.patch"
