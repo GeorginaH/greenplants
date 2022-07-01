@@ -1,8 +1,0 @@
-uuid: fe892087-9972-44b6-8fd4-0ac8f69bd152
-langcode: en
-status: true
-dependencies: {  }
-name: Leaves
-vid: leaves
-description: 'Describe whether the leaves are or not permanently.'
-weight: 0

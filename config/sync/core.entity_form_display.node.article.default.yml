@@ -1,4 +1,4 @@
-uuid: f8770066-fe9b-4b85-9325-54d7c7a3fff8
+uuid: e0b6438c-40e6-4314-abc0-9b6a7ec4a461
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,14 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_test
     - image.style.thumbnail
     - node.type.article
   module:
     - comment
     - image
     - path
+    - sask_feature_field
     - text
 _core:
   default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
@@ -61,12 +63,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
+  field_test:
+    type: sask_feature_field
+    weight: 121
     region: content
-    settings:
-      include_locked: true
+    settings: {  }
     third_party_settings: {  }
   path:
     type: path

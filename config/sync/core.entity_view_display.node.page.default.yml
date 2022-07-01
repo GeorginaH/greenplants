@@ -1,10 +1,9 @@
-uuid: f5c28829-6be2-41ab-ad4e-2716fe34b7a0
+uuid: d1ea7a19-dc1d-48bb-b8a3-83d8a5e55b11
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_media
     - node.type.page
   module:
     - text
@@ -23,19 +22,7 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-  field_media:
-    type: entity_reference_entity_view
-    label: hidden
-    settings:
-      view_mode: full
-      link: false
-    third_party_settings: {  }
-    weight: 102
-    region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
     weight: 101
     region: content
-hidden:
-  langcode: true
+hidden: {  }

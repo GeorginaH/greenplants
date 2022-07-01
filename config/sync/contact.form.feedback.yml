@@ -1,4 +1,4 @@
-uuid: 5d6e4b94-08b0-483c-a6c9-cc0999eb9688
+uuid: 4e80ea90-88ba-4daa-8080-7ce281c7b3c7
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - greenplants@gmail.com
+  - admin@example.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

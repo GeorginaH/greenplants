@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: ac262081-5748-4c3d-bd7f-db88dad61c7e
-name: 'Green Plants'
-mail: greenplants@gmail.com
+uuid: 4cfa2d14-1d58-4203-b410-f9d893594a3f
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''

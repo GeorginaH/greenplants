@@ -1,13 +1,11 @@
-uuid: 07acc303-12ee-4f68-b66a-25759d473b52
+uuid: 546e2fbd-9f23-4c34-8389-61c32c88fdde
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_media
     - node.type.page
   module:
-    - media_library
     - path
     - text
 _core:
@@ -32,20 +30,6 @@ content:
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_media:
-    type: media_library_widget
-    weight: 121
-    region: content
-    settings:
-      media_types: {  }
-    third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 2
-    region: content
-    settings:
-      include_locked: true
     third_party_settings: {  }
   path:
     type: path

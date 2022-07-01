@@ -1,0 +1,73 @@
+{
+  "patches": {
+    "drupal/core": {
+      "Allow projects to add to the list of skipped deprecations": "https://www.drupal.org/files/issues/2022-05-19/3143388-9.4.x-37.patch",
+      "Support third party settings for components within a section": "https://www.drupal.org/files/issues/2022-04-27/3015152-147.patch"
+    },
+    "drupal/default_content": {
+      "Reproducible order of import": "https://www.drupal.org/files/issues/2020-10-08/3175870.patch",
+      "[3200212] Import doesn't overwrite files": "https://git.drupalcode.org/project/default_content/-/merge_requests/8.patch",
+      "Deprecated use of drupal_get_path() and drupal_get_filename()": "https://www.drupal.org/files/issues/2021-12-23/3255884.patch",
+      "Add a Normalizer and Denormalizer to support Layout Builder": "https://www.drupal.org/files/issues/2021-04-07/3160146-37.patch",
+      "Automated Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2022-06-15/default_content.2.0.x-dev.rector.patch"
+    },
+    "drupal/redirect": {
+      "isMasterRequest => isMainRequest": "https://www.drupal.org/files/issues/2021-06-29/3216062-7.patch",
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-28/deprecated-drupal-get-path-3277813-2.patch"
+    },
+    "drupal/pathauto": {
+      "Convert ContextAwarePluginBase to traits : Deprecated code warnings: Drupal\\Core\\Plugin\\ContextAwarePluginBase is deprecated in drupal:9.1.0": "https://www.drupal.org/files/issues/2022-01-26/3205627.patch"
+    },
+    "drupal/media_library_form_element": {
+      "Deprecated function: explode()": "https://www.drupal.org/files/issues/2022-04-26/deprecated-explode-3277273-2.patch"
+    },
+    "drupal/blazy": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277283-2.patch"
+    },
+    "drupal/block_form_alter": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277289-2.patch"
+    },
+    "drupal/dropzonejs": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277296-2.patch"
+    },
+    "drupal/bootstrap_styles": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277299-3.patch"
+    },
+    "drupal/crop": {
+      "[crop] Drupal 10": "https://www.drupal.org/files/issues/2022-04-29/3267287-5.patch"
+    },
+    "drupal/entity_browser": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-28/deprecated-drupal-get-path-3277795-2.patch"
+    },
+    "drupal/layout_bg": {
+      "Remove deprecated code from layout_bg": "https://www.drupal.org/files/issues/2022-01-19/3259474-2.patch"
+    },
+    "drupal/layout_builder_blocks": {
+      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-28/deprecated-drupal-get-path-3277801-2.patch"
+    },
+    "drupal/media_library_theme_reset": {
+      "Drupal 10 Compatibility - 3257894": "patches/3257894-deprecation-addressed.patch"
+    },
+    "drupal/section_library": {
+      "Support Drupal 10 and update all use of deprecations in the Section Library module": "https://www.drupal.org/files/issues/2022-04-29/3277449-3.patch"
+    },
+    "drupal/fontawesome": {
+      "Drupal_get_path() and drupal_get_filename() have been deprecated": "patches/3243438-deprecated-drupal-get-6.patch",
+      "PHP 8.1 deprecation in fontawesome_iconpicker_widget": "https://www.drupal.org/files/issues/2022-04-29/fontawesome-3277932-2.patch"
+    },
+    "drupal/layout_library": {
+      "Form blocks rendered inside layout builder library break save": "https://www.drupal.org/files/issues/2020-05-04/layout-library-save-issue-3133484-4.patch",
+      "Deprecated use of SectionStorageTrait": "https://www.drupal.org/files/issues/2021-12-23/3255881.patch",
+      "Third party settings for SectionComponent": "https://www.drupal.org/files/issues/2022-04-26/3277009-5.patch"
+    },
+    "drupal/component_library": {
+      "Override mode is slow": "https://www.drupal.org/files/issues/2022-05-19/3281247-6-override-mode-slow.patch"
+    },
+    "drupal/focal_point": {
+      "Add option to not upscale images that are too small to fix target scale": "https://www.drupal.org/files/issues/2022-05-30/3048398-21.patch"
+    },
+    "drupal/double_field": {
+      "Support input filters on text formats": "https://www.drupal.org/files/issues/2022-05-20/text_long-2091587-59.patch"
+    }
+  }
+}

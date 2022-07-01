@@ -1,14 +1,12 @@
-uuid: 240faa13-2d47-4a10-9b21-e5ee07ed67ae
+uuid: 6a199182-d0a4-42ab-8201-60ac7442f4ec
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.commerce_remote_id
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -26,12 +24,6 @@ content:
   language:
     weight: 0
     region: content
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content
@@ -43,7 +35,4 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-hidden:
-  commerce_remote_id: true
-  customer_profiles: true
-  langcode: true
+hidden: {  }

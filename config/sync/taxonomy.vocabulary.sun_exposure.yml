@@ -1,8 +1,0 @@
-uuid: f9b43cd0-6480-4cff-9bd8-67fd5feccc1e
-langcode: en
-status: true
-dependencies: {  }
-name: 'Sun exposure'
-vid: sun_exposure
-description: ''
-weight: 0

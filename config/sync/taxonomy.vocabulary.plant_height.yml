@@ -1,8 +1,0 @@
-uuid: bb5a11df-d914-4573-9201-24a4cc1f2060
-langcode: en
-status: true
-dependencies: {  }
-name: 'Plant height'
-vid: plant_height
-description: ''
-weight: 0

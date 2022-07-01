@@ -1,4 +1,4 @@
-uuid: 12c96586-84ca-4c28-9ff8-82a79c50b8c4
+uuid: bce7ca5d-1c8f-4751-bcf1-a632f9cfca0c
 langcode: en
 status: true
 dependencies:
@@ -8,12 +8,13 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_test
     - image.style.large
     - node.type.article
   module:
     - comment
     - image
-    - text
+    - sask_feature_field
     - user
 _core:
   default_config_hash: b4RQ-Nfz-gOoG_jjftd_qDIz4lf_-OzlxoLHkRXjfrE
@@ -22,13 +23,6 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
-    region: content
   comment:
     type: comment_default
     label: above
@@ -36,7 +30,7 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 110
+    weight: 3
     region: content
   field_image:
     type: image
@@ -45,7 +39,7 @@ content:
       image_link: ''
       image_style: large
     third_party_settings: {  }
-    weight: -1
+    weight: 0
     region: content
   field_tags:
     type: entity_reference_label
@@ -53,12 +47,20 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 1
+    region: content
+  field_test:
+    type: sask_feature_field_default
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 2
     region: content
 hidden:
-  langcode: true
+  body: true

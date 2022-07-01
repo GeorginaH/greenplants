@@ -1,4 +1,4 @@
-uuid: 829527a0-06ae-41d4-a0ad-ca67f21ac9c4
+uuid: 1611626e-bee8-4680-bd78-a15ff008e64e
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_test
     - image.style.medium
     - node.type.article
   module:
@@ -53,4 +54,4 @@ hidden:
   comment: true
   field_image: true
   field_tags: true
-  langcode: true
+  field_test: true

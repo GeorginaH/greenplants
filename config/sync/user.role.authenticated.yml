@@ -1,4 +1,4 @@
-uuid: 1acf52ad-83e8-408f-bf52-365610d4c00b
+uuid: b6a111a4-82e3-4e27-8dc0-9cef1bf16e53
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,9 @@ dependencies:
     - filter.format.basic_html
   module:
     - comment
-    - commerce_checkout
-    - commerce_order
-    - commerce_payment
-    - commerce_product
     - contact
     - filter
-    - media
+    - fontawesome
     - search
     - shortcut
     - system
@@ -23,16 +19,12 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access checkout'
   - 'access comments'
   - 'access content'
+  - 'access fontawesome additional settings'
   - 'access shortcuts'
   - 'access site-wide contact form'
-  - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
-  - 'view commerce_product'
-  - 'view media'
-  - 'view own commerce_order'
