@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b2f4955291fbda4394980fdb5ca39d0",
+    "content-hash": "c295112eaf96aac2980bb94858084452",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1015,6 +1015,54 @@
             "time": "2022-02-19T04:09:55+00:00"
         },
         {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/e9969cfc0796e6dea9b4e52f77f18e1065212871",
+                "reference": "e9969cfc0796e6dea9b4e52f77f18e1065212871",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "issues": "https://github.com/cweagans/composer-patches/issues",
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.2"
+            },
+            "time": "2022-01-25T19:21:20+00:00"
+        },
+        {
             "name": "dflydev/dot-access-data",
             "version": "v3.0.1",
             "source": {
@@ -1545,6 +1593,108 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/block_form_alter",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_form_alter.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_form_alter-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "c88a0ffd31be9e77552ad7fa43ab85ee949c2127"
+            },
+            "require": {
+                "drupal/core": "^8.0|^9.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1609796972",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Burge",
+                    "homepage": "https://www.drupal.org/u/chris-burge",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides block form alter functions.",
+            "homepage": "https://www.drupal.org/project/block_form_alter",
+            "support": {
+                "source": "https://git.drupalcode.org/project/block_form_alter",
+                "issues": "https://www.drupal.org/project/issues/block_form_alter"
+            }
+        },
+        {
+            "name": "drupal/bootstrap_styles",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_styles.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_styles-1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": "e40341a006dbfc4237ac3f4e18884c7402291829"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9",
+                "drupal/media_library_form_element": "^2.0",
+                "drupal/media_library_theme_reset": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.3",
+                    "datestamp": "1610598452",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "AaronChristian",
+                    "homepage": "https://www.drupal.org/user/445890"
+                },
+                {
+                    "name": "mahmoud-zayed",
+                    "homepage": "https://www.drupal.org/user/2947001"
+                }
+            ],
+            "description": "Add a plugins builder and a collection of reusable plugins to the Layout Builder module.",
+            "homepage": "https://www.drupal.org/project/bootstrap_styles",
+            "keywords": [
+                "Bootstrap",
+                "Drupal",
+                "Grid",
+                "Layout Builder"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_styles"
             }
         },
         {
@@ -2162,6 +2312,132 @@
             }
         },
         {
+            "name": "drupal/default_content",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content.git",
+                "reference": "2.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha1.zip",
+                "reference": "2.0.0-alpha1",
+                "shasum": "0d534ab8e44786a352e24c7cec3dc06bef155f66"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "require-dev": {
+                "drupal/paragraphs": "^1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha1",
+                    "datestamp": "1595072288",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content"
+            }
+        },
+        {
+            "name": "drupal/double_field",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/double_field.git",
+                "reference": "4.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/double_field-4.0.0.zip",
+                "reference": "4.0.0",
+                "shasum": "c718196256f41b582fae749ff91f84619e3ce155"
+            },
+            "require": {
+                "drupal/core": "^8.9 || ^9",
+                "php": ">=7.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.0",
+                    "datestamp": "1631196358",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/1162080/committers",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Provides a field type with two separate sub-fields.",
+            "homepage": "https://www.drupal.org/project/double_field",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/double_field",
+                "issues": "https://www.drupal.org/project/issues/double_field"
+            }
+        },
+        {
             "name": "drupal/entity",
             "version": "1.3.0",
             "source": {
@@ -2290,6 +2566,111 @@
             }
         },
         {
+            "name": "drupal/fontawesome",
+            "version": "2.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fontawesome.git",
+                "reference": "8.x-2.23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.23.zip",
+                "reference": "8.x-2.23",
+                "shasum": "3e9292cd4b0d167d5b57376d5a23c402570e3d5e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.23",
+                    "datestamp": "1650642403",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel.Moberly",
+                    "homepage": "https://www.drupal.org/user/1160788"
+                },
+                {
+                    "name": "truls1502",
+                    "homepage": "https://www.drupal.org/user/325866"
+                }
+            ],
+            "description": "The web's most popular icon set and toolkit.",
+            "homepage": "https://www.drupal.org/project/fontawesome",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fontawesome",
+                "issues": "https://drupal.org/project/issues/fontawesome"
+            }
+        },
+        {
+            "name": "drupal/image_style_quality",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/image_style_quality.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/image_style_quality-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "5c2e80cfe88d8902ac9c7b6b3c70f6e8c893ffe1"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/imagemagick": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1597367306",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Charlton",
+                    "homepage": "https://www.drupal.org/user/17089"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                }
+            ],
+            "description": "Provides an image effect plugin that allows you to choose the quality of images.",
+            "homepage": "https://www.drupal.org/project/image_style_quality",
+            "support": {
+                "source": "https://git.drupalcode.org/project/image_style_quality"
+            }
+        },
+        {
             "name": "drupal/inline_entity_form",
             "version": "1.0.0-rc10",
             "source": {
@@ -2379,6 +2760,108 @@
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
                 "source": "https://git.drupalcode.org/project/inline_entity_form"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_at",
+            "version": "2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_at.git",
+                "reference": "8.x-2.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_at-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "6b79b7c2df90281d350b4cdda6de6be5fc84b1b8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.12",
+                    "datestamp": "1619341272",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kristof De Jaeger (swentel)",
+                    "homepage": "https://www.drupal.org/u/swentel",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Layout Builder Asymmetric Translation",
+            "homepage": "https://www.drupal.org/project/layout_builder_at",
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_at",
+                "issues": "https://www.drupal.org/project/issues/layout_builder_at",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/layout_builder_blocks",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_blocks.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_blocks-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "33625ab4c30483f609ab5555ed2044e945891a00"
+            },
+            "require": {
+                "drupal/bootstrap_styles": "^1.0",
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1610603277",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "AaronChristian",
+                    "homepage": "https://www.drupal.org/user/445890"
+                },
+                {
+                    "name": "mahmoud-zayed",
+                    "homepage": "https://www.drupal.org/user/2947001"
+                }
+            ],
+            "description": "Add UI styles support to blocks from Layout Builder module.",
+            "homepage": "https://www.drupal.org/project/layout_builder_blocks",
+            "keywords": [
+                "Drupal",
+                "Layout Builder",
+                "UI",
+                "style"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_blocks"
             }
         },
         {
@@ -2534,6 +3017,141 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/media_entity_download",
                 "issues": "https://www.drupal.org/project/issues/media_entity_download"
+            }
+        },
+        {
+            "name": "drupal/media_library_form_element",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_library_form_element.git",
+                "reference": "2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_library_form_element-2.0.3.zip",
+                "reference": "2.0.3",
+                "shasum": "9d7782136526752cbddd2ecc98fcf1024da75e00"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.3",
+                    "datestamp": "1608021997",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kim Kennof",
+                    "homepage": "https://www.drupal.org/u/nightlife2008",
+                    "email": "kim.kennof@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "AUSY, a randstad company",
+                    "homepage": "https://www.ausy.be",
+                    "email": "info@ausy.be",
+                    "role": "Sponsor"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "nightlife2008",
+                    "homepage": "https://www.drupal.org/user/333515"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                }
+            ],
+            "description": "This module provides a Media Library Form API element to be used in all sorts of forms.",
+            "homepage": "https://www.drupal.org/project/media_library_form_element",
+            "keywords": [
+                "Drupal",
+                "Form API",
+                "Media",
+                "Media Library"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/media_library_form_element",
+                "issues": "https://www.drupal.org/project/issues/media_library_form_element"
+            }
+        },
+        {
+            "name": "drupal/media_library_theme_reset",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/media_library_theme_reset.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/media_library_theme_reset-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "9bfb481c68962a903896a0e474295346e9368bb8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1624207600",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Cardwell",
+                    "homepage": "https://www.drupal.org/user/2913129"
+                },
+                {
+                    "name": "gravelpot",
+                    "homepage": "https://www.drupal.org/user/748208"
+                },
+                {
+                    "name": "lreynaga",
+                    "homepage": "https://www.drupal.org/user/3400232"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "ricksta",
+                    "homepage": "https://www.drupal.org/user/311042"
+                },
+                {
+                    "name": "texas_tater",
+                    "homepage": "https://www.drupal.org/user/753614"
+                }
+            ],
+            "description": "Display the Media Library with an administrative theme",
+            "homepage": "https://www.drupal.org/project/media_library_theme_reset",
+            "support": {
+                "source": "https://git.drupalcode.org/project/media_library_theme_reset"
             }
         },
         {
@@ -2717,6 +3335,75 @@
             }
         },
         {
+            "name": "drupal/search_api",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/search_api.git",
+                "reference": "19509b56da39d21f2d3c3b23bb55d1bf857f158e"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10.0"
+            },
+            "conflict": {
+                "drupal/search_api_solr": "2.* || 3.0 || 3.1"
+            },
+            "require-dev": {
+                "drupal/language_fallback_fix": "@dev",
+                "drupal/search_api_autocomplete": "@dev",
+                "drupal/search_api_db": "*"
+            },
+            "suggest": {
+                "drupal/facets": "Adds the ability to create faceted searches.",
+                "drupal/search_api_autocomplete": "Allows adding autocomplete suggestions to search fields.",
+                "drupal/search_api_solr": "Adds support for using Apache Solr as a backend."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1653047089",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Seidl",
+                    "homepage": "https://www.drupal.org/u/drunken-monkey"
+                },
+                {
+                    "name": "Nick Veenhof",
+                    "homepage": "https://www.drupal.org/u/nick_vh"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/790418/committers"
+                }
+            ],
+            "description": "Provides a generic framework for modules offering search capabilities.",
+            "homepage": "https://www.drupal.org/project/search_api",
+            "support": {
+                "source": "https://git.drupalcode.org/project/search_api",
+                "issues": "https://www.drupal.org/project/issues/search_api",
+                "irc": "irc://irc.freenode.org/drupal-search-api"
+            }
+        },
+        {
             "name": "drupal/state_machine",
             "version": "1.6.0",
             "source": {
@@ -2811,6 +3498,81 @@
             "homepage": "http://drupal.org/project/state_machine",
             "support": {
                 "source": "https://git.drupalcode.org/project/state_machine"
+            }
+        },
+        {
+            "name": "drupal/tb_megamenu",
+            "version": "2.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tb_megamenu.git",
+                "reference": "2.0.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tb_megamenu-2.0.0-alpha3.zip",
+                "reference": "2.0.0-alpha3",
+                "shasum": "fe08026f77c90df044d170bb703135b41e9ff3ae"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha3",
+                    "datestamp": "1648217068",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Wade Stewart (themodularlab)",
+                    "homepage": "https://www.drupal.org/u/themodularlab",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Michael Girgis (knaffles)",
+                    "homepage": "https://www.drupal.org/u/knaffles",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Andrew Olson (andrewozone)",
+                    "homepage": "https://www.drupal.org/u/andrewozone",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Justin Todd (quondam)",
+                    "homepage": "https://www.drupal.org/u/quondam",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Irene Dobbs (irene_dobbs)",
+                    "homepage": "https://www.drupal.org/u/irene_dobbs",
+                    "role": "Co-Maintainer"
+                },
+                {
+                    "name": "Henry Odiete (henry.odiete)",
+                    "homepage": "https://www.drupal.org/u/henry.odiete",
+                    "role": "Co-Maintainer"
+                },
+                {
+                    "name": "themodularlab",
+                    "homepage": "https://www.drupal.org/user/3190381"
+                }
+            ],
+            "description": "Provides complex, multi-column mega menu solutions for Drupal.",
+            "homepage": "https://www.drupal.org/project/tb_megamenu",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tb_megamenu",
+                "issues": "https://www.drupal.org/project/issues/tb_megamenu"
             }
         },
         {
@@ -3161,6 +3923,27 @@
                 "source": "https://github.com/enlightn/security-checker/tree/v1.10.0"
             },
             "time": "2022-02-21T22:40:16+00:00"
+        },
+        {
+            "name": "fonticonpicker/fonticonpicker",
+            "version": "3.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fontIconPicker/fontIconPicker/releases/download/v3.1.1/fontIconPicker.zip"
+            },
+            "replace": {
+                "farbelous/fontawesome-iconpicker": "self.version"
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "fortawesome/fontawesome",
+            "version": "5.15.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/FortAwesome/Font-Awesome/releases/download/5.15.3/fontawesome-free-5.15.3-web.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "grasmash/expander",
@@ -8224,11 +9007,14 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/inline_entity_form": 5
+        "drupal/default_content": 15,
+        "drupal/inline_entity_form": 5,
+        "drupal/search_api": 20,
+        "drupal/tb_megamenu": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

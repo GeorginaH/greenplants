@@ -1,0 +1,13 @@
+name: Install Profile
+type: profile
+description: 'Builds a website site.'
+core_version_requirement: ^9
+install:
+  - node
+  - block
+  - dblog
+  - page_cache
+  - dynamic_page_cache
+themes:
+  - stark
+version: 1.x

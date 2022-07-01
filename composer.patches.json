@@ -20,24 +20,9 @@
     },
     "drupal/media_library_form_element": {
       "Deprecated function: explode()": "https://www.drupal.org/files/issues/2022-04-26/deprecated-explode-3277273-2.patch"
-    },
-    "drupal/blazy": {
-      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277283-2.patch"
-    },
+    }
     "drupal/block_form_alter": {
       "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277289-2.patch"
-    },
-    "drupal/dropzonejs": {
-      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277296-2.patch"
-    },
-    "drupal/bootstrap_styles": {
-      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-26/deprecated-drupal-get-path-3277299-3.patch"
-    },
-    "drupal/crop": {
-      "[crop] Drupal 10": "https://www.drupal.org/files/issues/2022-04-29/3267287-5.patch"
-    },
-    "drupal/entity_browser": {
-      "drupal_get_path() is deprecated": "https://www.drupal.org/files/issues/2022-04-28/deprecated-drupal-get-path-3277795-2.patch"
     },
     "drupal/layout_bg": {
       "Remove deprecated code from layout_bg": "https://www.drupal.org/files/issues/2022-01-19/3259474-2.patch"
@@ -59,12 +44,6 @@
       "Form blocks rendered inside layout builder library break save": "https://www.drupal.org/files/issues/2020-05-04/layout-library-save-issue-3133484-4.patch",
       "Deprecated use of SectionStorageTrait": "https://www.drupal.org/files/issues/2021-12-23/3255881.patch",
       "Third party settings for SectionComponent": "https://www.drupal.org/files/issues/2022-04-26/3277009-5.patch"
-    },
-    "drupal/component_library": {
-      "Override mode is slow": "https://www.drupal.org/files/issues/2022-05-19/3281247-6-override-mode-slow.patch"
-    },
-    "drupal/focal_point": {
-      "Add option to not upscale images that are too small to fix target scale": "https://www.drupal.org/files/issues/2022-05-30/3048398-21.patch"
     },
     "drupal/double_field": {
       "Support input filters on text formats": "https://www.drupal.org/files/issues/2022-05-20/text_long-2091587-59.patch"
