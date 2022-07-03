@@ -1,0 +1,20 @@
+
+# Default value.
+field.value.sask_feature_field:
+  type: mapping
+  label: Default value
+  mapping:
+    description:
+      type: text
+      label: Description
+    description_format:
+      type: text
+      label: Description Format
+# FieldType: Sask Feature Field.
+field.field_settings.sask_feature_field:
+  type: mapping
+  label: 'Sask Feature Field field settings'
+  mapping:
+    default_format:
+      type: string
+      label: 'Default text format'

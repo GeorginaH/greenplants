@@ -1,0 +1,4 @@
+sask_feature_field:
+  css:
+    component:
+      css/sask-feature-field-widget.css: {}

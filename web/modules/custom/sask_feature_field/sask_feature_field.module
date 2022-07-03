@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * @file
+ * Provide a sask feature field.
+ */
+
+declare(strict_types=1);
+
+/**
+ * @return array
+ *   An associative array of information about theme implementations.
+ */
+function sask_feature_field_theme($existing, $type, $theme, $path): array {
+  return [
+    'fontawesomeicons' => [
+      'variables' => [
+        'icons' => NULL,
+        'description' => NULL,
+        'layers' => FALSE,
+      ],
+    ],
+    'fontawesomeicon' => [
+      'variables' => [
+        'tag' => 'i',
+        'name' => NULL,
+        'style' => NULL,
+        'settings' => NULL,
+        'transforms' => NULL,
+        'mask' => NULL,
+        'css' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function sask_feature_field_library_info_alter(array &$libraries, string $extension): void {
+  // The contrib project that provides the library assumes different file names.
+  if ($extension === 'fontawesome_iconpicker_widget') {
+    $libraries['fonticonpicker']['css']['base'] = [
+      '/libraries/fonticonpicker/css/base/jquery.fonticonpicker.min.css' => ['minified' => TRUE],
+    ];
+    $libraries['fonticonpicker']['js'] = [
+      '/libraries/fonticonpicker/js/jquery.fonticonpicker.min.js' => [
+        'minified' => TRUE,
+        'attributes' => ['defer' => TRUE],
+      ],
+    ];
+    $libraries['fonticonpicker.theme.grey']['css']['theme'] = [
+      '/libraries/fonticonpicker/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css' => ['minified' => TRUE],
+    ];
+    $libraries['fonticonpicker.theme.bootstrap']['css']['theme'] = [
+      '/libraries/fonticonpicker/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css' => ['minified' => TRUE],
+    ];
+    $libraries['fonticonpicker.theme.dark_grey']['css']['theme'] = [
+      '/libraries/fonticonpicker/css/themes/dark_grey-theme/jquery.fonticonpicker.dark_grey.min.css' => ['minified' => TRUE],
+    ];
+    $libraries['fonticonpicker.theme.inverted']['css']['theme'] = [
+      '/libraries/fonticonpicker/css/themes/inverted-theme/jquery.fonticonpicker.inverted.min.css' => ['minified' => TRUE],
+    ];
+    $libraries['fonticonpicker.theme.bootstrap']['css']['theme'] = [
+      '/libraries/fonticonpicker/css/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css' => ['minified' => TRUE],
+    ];
+  }
+}
