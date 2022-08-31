@@ -3,18 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_media
     - field.field.node.article.field_tags
-    - field.field.node.article.field_test
-    - image.style.large
     - node.type.article
   module:
-    - comment
-    - image
-    - sask_feature_field
+    - text
     - user
 _core:
   default_config_hash: b4RQ-Nfz-gOoG_jjftd_qDIz4lf_-OzlxoLHkRXjfrE
@@ -23,44 +18,15 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
-  comment:
-    type: comment_default
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_image:
-    type: image
+  body:
+    type: text_default
     label: hidden
-    settings:
-      image_link: ''
-      image_style: large
+    settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
-  field_tags:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_test:
-    type: sask_feature_field_default
-    label: above
-    settings:
-      layers: false
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
 hidden:
-  body: true
+  comment: true
+  field_media: true
+  field_tags: true
+  links: true

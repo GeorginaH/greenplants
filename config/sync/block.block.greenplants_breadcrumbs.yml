@@ -1,0 +1,22 @@
+uuid: bf11d1cd-8c76-4f87-93da-3335833288aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - greenplants
+_core:
+  default_config_hash: NjcxOBrPOiK5-38t56DwFBDVY4yer7YSlbRWXFuHe7A
+id: greenplants_breadcrumbs
+theme: greenplants
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

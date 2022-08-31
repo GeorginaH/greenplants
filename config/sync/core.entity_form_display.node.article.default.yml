@@ -5,16 +5,13 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_media
     - field.field.node.article.field_tags
-    - field.field.node.article.field_test
-    - image.style.thumbnail
     - node.type.article
   module:
     - comment
-    - image
+    - media_library
     - path
-    - sask_feature_field
     - text
 _core:
   default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
@@ -45,13 +42,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    type: image_image
-    weight: 4
+  field_media:
+    type: media_library_widget
+    weight: 121
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
@@ -62,12 +58,6 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  field_test:
-    type: sask_feature_field
-    weight: 121
-    region: content
-    settings: {  }
     third_party_settings: {  }
   path:
     type: path

@@ -1,15 +1,15 @@
-uuid: 96a2d3d2-4d22-49dc-a722-12ccbe2ee8b2
+uuid: 60ee9c0f-7a77-4d39-a686-4ac26684b0a2
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - greenplants
 _core:
-  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
-id: bartik_local_actions
-theme: bartik
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: greenplants_local_actions
+theme: greenplants
 region: content
-weight: -20
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:

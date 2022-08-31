@@ -1,0 +1,20 @@
+uuid: c0ad2ccf-1781-4b9e-a54e-134908d225a7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - greenplants
+_core:
+  default_config_hash: fNwDdW063tk_ktzSWzZVeQS9wzvLooVO280BQ9WrsIs
+id: greenplants_page_title
+theme: greenplants
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

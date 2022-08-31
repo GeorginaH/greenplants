@@ -1,0 +1,22 @@
+uuid: c3f1c3ac-3a82-4358-8830-1c20721f1990
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - greenplants
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: greenplants_content
+theme: greenplants
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
