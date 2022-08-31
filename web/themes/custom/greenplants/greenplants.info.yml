@@ -1,5 +1,5 @@
 type: theme
-base theme: false
+base theme: stable
 core: 8.x
 core_version_requirement: ^8 || ^9
 
@@ -8,18 +8,20 @@ description: 'A theme for our nursery garden.'
 package: 'Custom'
 
 regions:
-  header: 'Header'
-  primary_menu: 'Primary Menu'
-  secondary_menu: 'Secondary Menu'
-  breadcrumb: 'Breadcrumb'
-  highlighted: 'Highlighted'
-  help: 'Help'
-  pre_content: 'Pre Content'
-  content: 'Content'
-  post_content: 'Post Content'
-  sidebar_first: 'Sidebar First'
-  sidebar_second: 'Sidebar Second'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom: 'Featured bottom'
   footer: 'Footer'
+  sticky_footer: 'Sticky footer'
 
 libraries:
   - greenplants/global_styles

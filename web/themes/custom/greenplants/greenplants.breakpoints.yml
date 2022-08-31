@@ -1,0 +1,20 @@
+greenplants.image.small:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+greenplants.image.medium:
+  label: normal
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+greenplants.image.large:
+  label: wide
+  mediaQuery: 'all and (min-width: 1200px)'
+  weight: 2
+  multipliers:
+    - 1x

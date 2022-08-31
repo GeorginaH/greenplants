@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe598233e58850f0b20da9ee47728936",
+    "content-hash": "f90f6f48e942dfcaf347bc2afb60944f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3514,6 +3514,55 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/svg_image",
                 "issues": "http://drupal.org/project/svg_image"
+            }
+        },
+        {
+            "name": "drupal/tailwindcss_utility",
+            "version": "dev-2.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tailwindcss_utility.git",
+                "reference": "a04ad6bd675da1d801cd6b50c047de2ca94b5f1b"
+            },
+            "require": {
+                "drupal/core": "^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0.x": "2.0.x-dev"
+                },
+                "drupal": {
+                    "version": "2.0.x-dev",
+                    "datestamp": "1654609154",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
+                    "name": "Graber",
+                    "homepage": "https://www.drupal.org/user/1599440"
+                },
+                {
+                    "name": "heddn",
+                    "homepage": "https://www.drupal.org/user/1463982"
+                }
+            ],
+            "description": "Tailwind Utilities",
+            "homepage": "https://www.drupal.org/project/tailwindcss_utility",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tailwindcss_utility"
             }
         },
         {
@@ -9124,6 +9173,7 @@
         "drupal/default_content": 15,
         "drupal/inline_entity_form": 5,
         "drupal/search_api": 20,
+        "drupal/tailwindcss_utility": 20,
         "drupal/tb_megamenu": 15
     },
     "prefer-stable": true,
